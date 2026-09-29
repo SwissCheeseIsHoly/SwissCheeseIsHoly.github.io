@@ -1,0 +1,15 @@
+---
+title: "Resume"
+subtitle: "Education, experience, and leadership."
+page-layout: full
+title-block-banner: "#112940"
+---
+
+::: {.resume-toolbar}
+[Download resume (PDF)](resume.pdf){.contact-link .primary-link download="William-Grady-Hendrix-Resume.pdf"}
+[Open PDF in a new tab](resume.pdf){.contact-link target="_blank" rel="noopener"}
+:::
+
+<iframe class="resume-frame" src="resume.pdf" title="William Grady Hendrix resume" width="100%" height="1100">
+<p>Your browser cannot display the PDF. <a href="resume.pdf">Download the resume</a>.</p>
+</iframe>

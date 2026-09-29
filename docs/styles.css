@@ -1,0 +1,48 @@
+/* A restrained, navy-and-white engineering portfolio. */
+:root { --ink:#112940; --body:#34485b; --accent:#215879; --line:#dbe3e9; }
+body { color:var(--body); font-size:1.0625rem; line-height:1.7; background:#fff; }
+a { color:var(--accent); text-underline-offset:4px; }
+h1,h2,h3 { color:var(--ink); font-weight:700; letter-spacing:-.035em; }
+.navbar { padding:1.05rem 0; }
+.navbar-brand { font-size:1.05rem; font-weight:700; letter-spacing:.015em; }
+.navbar .navbar-nav .nav-link { font-size:.95rem; padding:.5rem 1rem; }
+.navbar .nav-link.active { text-decoration:underline; text-underline-offset:8px; }
+#quarto-content { max-width:1400px; margin:0 auto; }
+.profile-hero { display:grid; grid-template-columns:minmax(240px,.85fr) minmax(0,1.55fr); gap:clamp(2rem,5vw,5rem); align-items:center; padding:3.4rem 0 4rem; max-width:1140px; margin:0 auto; }
+.profile-photo p { margin:0; }
+.headshot { display:block; width:100%; height:auto; border-radius:3px; box-shadow:14px 14px 0 #edf2f6; }
+.eyebrow { display:block; font-size:.8rem; font-weight:700; letter-spacing:.11em; color:var(--accent); }
+.profile-copy h1 { font-size:clamp(2.4rem,4.2vw,4rem); line-height:1.06; margin:1rem 0 1.35rem; }
+.profile-copy .intro-line { font-size:1.3rem; color:var(--ink); }
+.profile-copy p { margin-bottom:1.2rem; }
+.contact-links,.resume-toolbar { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.7rem; }
+.contact-links p,.resume-toolbar p { display:contents; }
+.contact-link { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.55rem 1.15rem; border:1px solid var(--ink); border-radius:3px; text-decoration:none; color:var(--ink); font-size:.95rem; font-weight:600; transition:background .15s,color .15s; }
+.contact-link:hover { background:#edf2f6; color:var(--ink); }
+.primary-link { background:var(--ink); color:#fff; }
+.primary-link:hover { background:#23455e; color:#fff; }
+.contact-details { margin-top:1rem; font-size:.9rem; overflow-wrap:anywhere; }
+.contact-details a { color:var(--body); }
+a:focus-visible,button:focus-visible { outline:3px solid #c77d28; outline-offset:4px; }
+.quarto-title-banner { padding:3rem 0; }
+.quarto-title-banner h1 { font-size:3rem; color:#fff; }
+.quarto-title-banner .subtitle { font-size:1.15rem; color:#e1ebf3; }
+#listing-listing { margin-top:2rem; }
+.quarto-grid-item { border:1px solid var(--line); border-radius:3px; overflow:hidden; box-shadow:none; }
+.quarto-grid-item .listing-title { font-size:1.5rem; }
+.quarto-grid-item .listing-description { font-size:1rem; }
+.resume-toolbar { margin:0 0 1.5rem; }
+.resume-frame { display:block; border:1px solid var(--line); background:#eef2f5; min-height:700px; }
+.nav-footer { border-top:1px solid var(--line); padding:1.2rem 1rem; font-size:.85rem; }
+@media(max-width:767px) {
+ .profile-hero { grid-template-columns:1fr; padding:1.5rem .2rem 2.5rem; gap:2.1rem; }
+ .profile-photo { width:min(68vw,290px); margin:auto; }
+ .profile-copy h1 { font-size:2.6rem; }
+ .eyebrow { font-size:.78rem; }
+ .navbar-brand { max-width:76vw; white-space:normal; }
+ .quarto-title-banner { padding:2rem 1rem; }
+ .quarto-title-banner h1 { font-size:2.4rem; }
+ .resume-frame { height:80vh; min-height:540px; }
+ .nav-footer { flex-direction:column; gap:.35rem; }
+}
+@media(prefers-reduced-motion:reduce) { * { transition:none!important; scroll-behavior:auto!important; } }

@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - resume.pdf
+    - favicon.svg
+
+website:
+  title: "William Grady Hendrix"
+  description: "Industrial engineering student at the University of Arkansas with experience in construction, field engineering, and project management."
+  favicon: favicon.svg
+  search: false
+  navbar:
+    background: "#112940"
+    foreground: "#ffffff"
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Resume
+        href: resume.qmd
+  page-footer:
+    left: "William Grady Hendrix"
+    right: "Industrial Engineering · University of Arkansas"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en
+    mainfont: "Arial, Helvetica, sans-serif"
+
+editor: visual

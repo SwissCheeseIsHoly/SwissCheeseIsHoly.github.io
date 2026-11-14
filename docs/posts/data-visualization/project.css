@@ -1,2 +1,6 @@
 /* Keep the listing summary on the project card; the full summary follows team credits. */
 .quarto-title-block .description { display: none; }
+
+.quarto-title-block .subtitle {display:flex;flex-wrap:wrap;gap:.4rem;margin:.7rem 0 1rem;}
+.quarto-title-block .project-tab {display:inline-block;font-size:.78rem;text-transform:uppercase;line-height:1.4;padding:.22rem .5rem;border:1px solid currentColor;border-radius:.22rem;color:#4d5961;text-decoration:none;}
+.quarto-title-block .project-tab:hover,.quarto-title-block .project-tab:focus-visible {color:#111;background:#f3f3f3;text-decoration:underline;}

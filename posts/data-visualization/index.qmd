@@ -2,7 +2,9 @@
 title: "Behind the Beat: Exploring Spotify Music Trends"
 author: "William Grady Hendrix"
 date: "2026-11-13"
-categories: [Data, Analysis, Excel, Presentation, Teamwork]
+subtitle: "[Data](resources/data.html){.project-tab} [Analysis](resources/analysis.html){.project-tab} [Excel](resources/music-workbook.xlsx){.project-tab} [Presentation](resources/music-presentation.pptx){.project-tab} [Teamwork](resources/teamwork.html){.project-tab}"
+resources:
+  - "resources/**"
 image: cover.png
 description: "An Excel analysis of 66,796 songs exploring speechiness, artist popularity, song length, and the relationship between energy and danceability."
 title-block-banner: false
@@ -16,11 +18,9 @@ This project was completed by the following team members:
 
 - [William Hendrix](https://swisscheeseisholy.github.io/)
 - [Carter O’Dell](https://carter-s-o.github.io/)
-- Mattie McGrauh
+- [Mattie McGarrah](https://mattiemcgarrah.github.io/Mattie-McGarrah.github.io/)
 - [Elizabeth Brock](https://elizabeth-diane.github.io/)
-- Sara Draper
-
-<!-- Portfolio links for Mattie McGrauh and Sara Draper pending. -->
+- [Sarah Draper](https://SarahDraper.github.io/)
 
 ## Description
 

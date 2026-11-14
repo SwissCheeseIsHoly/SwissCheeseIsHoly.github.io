@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 listing:
-  contents: posts/data-visualization
+  contents: posts/data-visualization/index.qmd
   sort: "date"
   type: grid
   categories: false

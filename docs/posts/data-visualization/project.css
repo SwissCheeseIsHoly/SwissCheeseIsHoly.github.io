@@ -1,0 +1,2 @@
+/* Keep the listing summary on the project card; the full summary follows team credits. */
+.quarto-title-block .description { display: none; }

@@ -14,12 +14,13 @@ css: project.css
 
 This project was completed by the following team members:
 
-- [William “Grady” Hendrix](https://swisscheeseisholy.github.io/)
+- [William Hendrix](https://swisscheeseisholy.github.io/)
+- [Carter O’Dell](https://carter-s-o.github.io/)
+- Mattie McGrauh
 - [Elizabeth Brock](https://elizabeth-diane.github.io/)
-- Mattie McGarrah
-- Sarah Draper
+- Sara Draper
 
-<!-- Fifth teammate and remaining portfolio links pending. -->
+<!-- Portfolio links for Mattie McGrauh and Sara Draper pending. -->
 
 ## Description
 
